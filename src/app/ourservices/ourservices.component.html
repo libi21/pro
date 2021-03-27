@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ourservices</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "montserrat",sans-serif;
+            box-sizing:border-box;
+        }
+        body{
+            background-image:url("https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg");
+      background-size: cover;
+      background-image: 100% 100%;
+      
+        }
+        .inner-width{
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+        .section-title{
+            text-align: center;
+            color: #d65822;
+            text-transform: uppercase;
+            font-size: 30px;
+        }
+        .boarder{
+            width: 160px;
+            height: 2px;
+            background: #82ccdd;
+            margin: 40px auto;
+        }
+        .service-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .services-box{
+            max-width: 33.33%;
+            padding: 10px;
+            text-align: center;
+            color:#1bd834;
+            cursor: pointer;
+        }
+        .services-icon{
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            border: 3px solid #82ccdd;
+            color: #82ccdd;
+            transform: rotate(45deg);
+            margin-bottom: 30px;
+            margin-top: 16px;
+            transition: 0.3s linear;
+        }
+        .services-icon i{
+            line-height: 70px;
+            transform: rotate(-45deg);
+            font-size: 26px;
+        }
+        .services-box:hover .services-icon{
+            background: #82ccdd;
+            color: #ddd;
+        }
+        .service-title{
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .service-desc{
+            font-size: 14px;
+        }
+        @media screen and (max-width:960px){
+            .services-box{
+                max-width: 45%;   
+            }
+            
+        }
+        @media screen and (max-width:768px){
+            .services-box{
+                max-width: 50%;   
+            }
+            
+        }
+        @media screen and (max-width:480px){
+            .services-box{
+                max-width: 100%;   
+            }
+            
+        } 
+        h1{
+            text-align: center;
+            color:#901b22 ;
+            background-color:#82ccdd;
+            padding: 20px 60px;
+
+        }
+        </style>
+</head>
+<body>
+    <div class="mainhead">
+        <div class="inner-width">
+        <h1  class="section-title">our services</h1>
+        <div class="border"></div>
+        <div class="service-container">
+            <div class="services-box">
+                <div class="services-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="service-title">net banking</div>
+                <div class="service-desc">Please find the attached lab setup requirement for Java FSD training, request you all download the mentioned software and keep it ready. On the Day-1 trainer will guide on the installation part and then proceed with the session.
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-icon">
+                <i class="fas fa-code"></i>
+                </div>
+                <div class="service-title">money transfer</div>
+                <div class="service-desc">Please find the attached lab setup requirement for Java FSD training, request you all download the mentioned software and keep it ready. On the Day-1 trainer will guide on the installation part and then proceed with the session.
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-icon">
+                <i class="fas fa-brush"></i>
+                </div>
+                <div class="service-title">loans</div>
+                <div class="service-desc">Please find the attached lab setup requirement for Java FSD training, request you all download the mentioned software and keep it ready. On the Day-1 trainer will guide on the installation part and then proceed with the session.
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-icon">
+                <i class="fas fa-object-ungroup"></i>
+                </div>
+                <div class="service-title">card service</div>
+                <div class="service-desc">Please find the attached lab setup requirement for Java FSD training, request you all download the mentioned software and keep it ready. On the Day-1 trainer will guide on the installation part and then proceed with the session.
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-icon">
+                <i class="fas fa-database"></i>
+                </div>
+                <div class="service-title">mobile banking</div>
+                <div class="service-desc">Please find the attached lab setup requirement for Java FSD training, request you all download the mentioned software and keep it ready. On the Day-1 trainer will guide on the installation part and then proceed with the session.
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>
